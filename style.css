@@ -1,0 +1,183 @@
+html{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    background-color: #fffffff0;
+}
+header{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-52379.jpg?w=360);
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(21, 36, 237, 0.749);
+    padding: 2rem;
+    color: #fff;
+}
+header p{
+    color: #ede5e5b4;
+}
+header hr{
+    color: rgb(250, 239, 239);
+}
+nav{
+    margin-top: 0;
+    background-color: #1276AF;
+    text-align: center;
+    padding: 1px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding:40px;
+}
+nav a:hover{
+    transition: color 0.3s ease;
+    color: #ede5e5b4;
+}
+#Home, #Home p{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(73, 69, 69);
+}
+#Home h2{
+    color: rgb(73, 67, 67);
+}
+#Home video{
+    margin-top: 20px;
+    width: 400px;
+    cursor:pointer;
+}
+#Desarrollo{
+    color: rgb(73, 69, 69);
+    text-align: center;
+    margin: 0 auto;
+}
+#Desarrollo h2{
+    color:rgb(73, 67, 67);
+}  
+#python{
+    width: 120px;
+}
+#subtitulo{
+    color: rgb(73, 67, 67);
+}
+#lenguajes{
+    margin: 10px;
+    padding: 20px;
+    
+}
+#lenguajes img{
+    width: 100px;
+    height: auto;
+    
+}
+#Equipo {
+    text-align: center;
+    margin: 0 auto;
+    color:rgb(73, 67, 67);
+}
+#Equipo h2{
+    color:rgb(73, 67, 67);
+}
+#Contacto{
+    margin: 0 auto;
+    text-align: center;
+}
+#Contacto p{
+    color:rgb(73, 67, 67);
+}
+#Contacto h2{
+    color:rgb(52, 50, 50);
+    font-size: 20px;
+    padding: 10px;
+}
+#Contacto h3{
+    font-size: 20px;
+    color:rgb(52, 50, 50);
+}
+footer{
+    background-color:#23518C;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+#siguenos img{
+    width: 40px;
+    margin:10px;
+}
+#siguenos a{
+    color: #fff;
+}
+.integrante1{
+    width: 250px;
+    height: 190px;
+    cursor:pointer;
+}
+#i1 figcaption{
+    font-size: 15px;
+}
+hr{
+    width: 95%;
+}
+#Trabaja{
+    margin: 0 auto;
+    text-align: center;
+}
+#Trabaja{
+    color:rgb(52, 50, 50);
+}
+form{
+    margin-top: 20px;
+    background-color: #f4f1f1be;
+    color: #9a9292;
+    border-radius: 5px;
+    width: 540px;
+    margin: 0 auto;
+    height: 290px;
+    margin: 0 auto;
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 400px;
+}
+label{
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+#boton{
+    width: 250px;
+    height: 35px;
+    background-color: #4b656f;
+    border-radius: 5px;
+    border-color: #4b656f;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#datos{
+    display: flex;
+    gap: 3px;
+    font-size: 20px;
+    margin: 15px;
+    margin-left: 10px;
+}
+input#nombre,
+input#apellido {
+    flex: 1; /* Hace que ambos inputs ocupen espacio igual en la línea */
+    width: 120px;
+    height: 25px;
+}
+#Email{
+    width: 418px;
+    height: 25px;
+}
